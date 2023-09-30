@@ -1,0 +1,98 @@
+body {
+    font-family:'Inter', sans-serif;
+        /* font-family: 'Montserrat', sans-serif;
+        font-family: 'Reem Kufi', sans-serif; */
+        background-color: #fff;
+        color: #434B53;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    max-width: 1208px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #5F0A61;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #5F0A61;
+        font-family: Reem Kufi, sans-serif;
+        font-size: 25px;
+        line-height: 1.5;
+        text-transform: uppercase;
+}
+
+.header-nav {}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* .header-item:not(:last-child) {
+margin-right: 40px;
+} */
+
+.header-link {
+    color: #2E363E;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        padding: 55px 0;
+        display: block;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #5F0A61;
+}
+
+.header-address {}
+
+.header-tel-link {
+    color: #5F0A61;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.52;
+}
+
